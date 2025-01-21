@@ -41,11 +41,17 @@ Three datasets were used for evaluation:
 - RoBERTa achieved the highest overall accuracy and F1-scores across all datasets.
 - Metrics like F1-score were shown to provide a more balanced evaluation compared to accuracy, especially in imbalanced datasets.
 
+For detailed information, see:
+- [Experiments](Experiments.md)
+
 ## Techniques for Class Imbalance
 
 - **Class weights**: Applied in logistic regression and XGBoost to assign higher importance to minority classes.
 - **Sample weights**: Fine-grained instance weighting in XGBoost.
 - **Focal loss**: Adjusts the loss function to prioritize misclassified examples, effective for BiLSTM, BERT, and RoBERTa.
+
+For more information, see:
+- [Experiments](Experiments.md)
 
 ## Results
 
