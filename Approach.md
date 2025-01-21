@@ -24,7 +24,7 @@ As a linear classifier, logistic regression performs a probability prediction ba
 
 In contrast, XGBoost is an ensemble method. It is designed for building gradient boosted decision trees. It has especially shown high performance in datasets where complex patterns are observed.
 
-####BiLSTM with GloVe Word Embeddings
+#### BiLSTM with GloVe Word Embeddings
 
 Next, I used a deep learning approach using BiLSTM with GloVe word embeddings. GloVe is a pre-trained word embedding model that transforms textual data into numerical features. GloVe provides dense vector representations that are the co- occurrence patterns in large text corpora. GloVe vectors are loaded into BiLSTM model as an embedding layer.
 BiLSTM differs from traditional LSTM model by processing the input sequence in both directions at the same time. In BiLSTM, one LSTM process reads input in forward direction and the other one reads the input in backward direction. As a result, the model can gain contextual insights from past and future words within a sequence.
