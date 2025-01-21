@@ -1,9 +1,59 @@
 # Class Imbalance in Sentiment Analysis
 
-Sentiment analysis is an important domain of natural language processing (NLP) that focuses on detecting the emotional tone or sentiment within the text data. This paper evaluated and compared the performance of logistic regression, XGBoost, BiLSTM, BERT and RoBERTa individually in sentiment analysis using three different financial datasets. Although a powerful task for identifying emotional tone, sentiment analysis suffers from class imbalance. 
+This repository contains the implementation and findings of **"Sentiment Analysis in the Finance Domain"**, a project conducted by **Kadir Altunel** at the New Jersey Institute of Technology. The project explores various machine learning and deep learning models for sentiment analysis with a focus on addressing class imbalance challenges.
 
-Lango (2019) highlighted the negative effects of class imbalance on model performance, especially in minority classes. In cases where class imbalance draws issues, using metrics like accuracy can be misleading, as it disproportionately reflects the performance of majority classes. Lango (2019) emphasized the need for metrics such as F1- score to better evaluate model effectiveness on both majority and minority classes. 
+## Overview
 
-The three datasets I used in this project varied significantly in their class distribution. On the first dataset, the minority class made up 15% of the dataset while in the second dataset the minority class was at 36%. On the third dataset, the minority class made up 46%. In this study, to assess model performance, I used class-level F1-scores for each sentiment class individually. 
+Sentiment analysis is an important natural language processing (NLP) task aimed at determining the emotional tone in text data. This project evaluates the performance of traditional and modern machine learning models on three financial datasets, focusing on the prevalent issue of class imbalance.
 
-The results of this project showed that applying techniques such as *class weights*, *sample weights*, and *focal loss* to address class imbalances significantly improved the F1-scores of the models. This underscores the importance of aligning evaluation metrics with task-specific needs. However, these findings are specific to the datasets used in this study and may vary with other datasets or domains.
+## Approaches and Models
+
+The project employs the following methods:
+
+1. **Logistic Regression and XGBoost**  
+   - Feature extraction using TF-IDF.
+   - Class-weighting and sample-weighting techniques to address class imbalance.
+
+2. **BiLSTM with GloVe Word Embeddings**  
+   - Leveraging pre-trained GloVe embeddings for contextual insights.
+   - Use of focal loss to enhance minority class performance.
+
+3. **Transformer Architectures: BERT and RoBERTa**  
+   - Pre-trained BERT and optimized RoBERTa models for bidirectional contextual understanding.
+   - Integration of dynamic masking and focal loss for improved performance.
+
+## Datasets
+
+Three datasets were used for evaluation:
+1. **Financial Data Analysis Dataset**: Sentiment-labeled sentences from financial articles.
+2. **Stock-Market Sentiment Dataset**: Stock-related news from Twitter.
+3. **Sentiment-Labeled Financial News Dataset**: Expert-annotated financial news snippets.
+
+## Key Findings
+
+- Handling class imbalance significantly improved model performance on minority classes.
+- RoBERTa achieved the highest overall accuracy and F1-scores across all datasets.
+- Metrics like F1-score were shown to provide a more balanced evaluation compared to accuracy, especially in imbalanced datasets.
+
+## Techniques for Class Imbalance
+
+- **Class weights**: Applied in logistic regression and XGBoost to assign higher importance to minority classes.
+- **Sample weights**: Fine-grained instance weighting in XGBoost.
+- **Focal loss**: Adjusts the loss function to prioritize misclassified examples, effective for BiLSTM, BERT, and RoBERTa.
+
+## Results
+
+Detailed performance metrics (accuracy and F1-scores) for all models across datasets are available in the project.
+
+## Future Work
+
+- Data augmentation techniques such as back-translation and word insertion.
+- Domain-specific fine-tuning of BERT and RoBERTa for enhanced contextual understanding.
+
+## References
+
+The full list of references can be found in the accompanying paper.
+
+## Code and Experiments
+
+
