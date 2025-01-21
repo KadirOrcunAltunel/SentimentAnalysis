@@ -34,3 +34,19 @@ Where:
 - $$\gamma$$: the focusing parameter that adjusts the rate at which easy examples are down-weighted
 
 Here are the performances of all 3 datasets on various models:
+
+### Dataset 1 – Accuracy & F1-Score Performance
+
+| Model                               | Accuracy  | F1-Score                                         |
+|--------------------------------------|----------|--------------------------------------------------|
+| Logistic Regression (base)           | 0.72     | Negative: 0.21, Neutral: 0.80, Positive: 0.72 |
+| Logistic Regression (*class weights*)| 0.72     | Negative: 0.53, Neutral: 0.78, Positive: 0.73 |
+| XGBoost (base)                       | 0.68     | Negative: 0.19, Neutral: 0.76, Positive: 0.70 |
+| XGBoost (*sample weights*)           | 0.68     | Negative: 0.42, Neutral: 0.75, Positive: 0.69 |
+| BiLSTM                               | 0.75     | Negative: 0.41, Neutral: 0.82, Positive: 0.77 |
+| BiLSTM (*focal loss*)                | 0.71     | Negative: 0.57, Neutral: 0.75, Positive: 0.75 |
+| BERT                                 | 0.80     | Negative: 0.37, Neutral: 0.86, Positive: 0.85 |
+| BERT (*focal loss*)                  | 0.79     | Negative: 0.44, Neutral: 0.83, Positive: 0.86 |
+| RoBERTa                              | 0.82     | Negative: 0.50, Neutral: 0.86, Positive: 0.88 |
+| RoBERTa (*focal loss*)               | 0.81     | Negative: **0.63**, Neutral: 0.83, Positive: 0.88 |
+
