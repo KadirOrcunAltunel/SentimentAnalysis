@@ -29,6 +29,8 @@ $$
 $$
 
 Where:
-$$p_t$$: the predicted probability for true class
+- $$p_t$$: the predicted probability for true class
+- $$\alpha$$: thescaling factor that helps balance the importance of positive vs. negative classes
+- $$\gamma$$: the focusing parameter that adjusts the rate at which easy examples are down-weighted
 
-$$\alpha$$: thescaling factor that helps balance the importance of positive vs. negative classes
+Here are the performances of all 3 datasets on various models:
