@@ -4,7 +4,7 @@ This repository contains the implementation and findings of **"Class Imbalance i
 
 ## Overview
 
-Sentiment analysis is an important natural language processing (NLP) task aimed at determining the emotional tone in text data. This project evaluates the performance of traditional and modern machine learning models on three financial datasets, focusing on the prevalent issue of class imbalance. In the project:
+Sentiment analysis is an important natural language processing (NLP) task aimed at determining the emotional tone in text data. This project evaluates the performance of traditional and modern machine learning models on three financial datasets, focusing on the prevalent issue of class imbalance. More details on overview can be seen on:
 
 - [Abstract](Abstract.md): A summary of the project and its key findings.
 - [Introduction](Introduction.md): Background and context of the project, including its goals and significance.
