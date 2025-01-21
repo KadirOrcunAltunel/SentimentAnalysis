@@ -50,6 +50,9 @@ Three datasets were used for evaluation:
 ## Results
 
 Detailed performance metrics (accuracy and F1-scores) for all models across datasets are available in the project.
+For more details, see:
+- [Experiments](Experiments.md)
+- [Conclusion](Conclusion.md)
 
 ## Future Work
 
