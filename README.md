@@ -72,8 +72,11 @@ For more details, see:
 
 ## References
 
-The full list of references can be found in the accompanying paper. Please refer to [References](References.md)
+The full list of references can be found in the accompanying project. Please refer to [References](References.md)
 
-## Code and Experiments
+## Code
+
+- **Dataset 1**: [Logistic Regression and XGBoost](https://github.com/KadirOrcunAltunel/SentimentAnalysis/blob/main/code/Sentiment%20Analysis%20-%20Logistic%20Regression%20and%20XGB%20with%20TFIDF%20-%20Dataset-1.ipynb), [LSTM with GloVe](https://github.com/KadirOrcunAltunel/SentimentAnalysis/blob/main/code/Sentiment%20Analysis%20-%20LSTM%20with%20GloVe%20-%20Dataset-1.ipynb), [BERT](https://github.com/KadirOrcunAltunel/SentimentAnalysis/blob/main/code/Sentiment%20Analysis%20BERT%20-%20Dataset-1.ipynb), [RoBERTa](https://github.com/KadirOrcunAltunel/SentimentAnalysis/blob/main/code/Sentiment%20Analysis%20-%20Roberta%20-%20Dataset-1.ipynb)
+
 
 
