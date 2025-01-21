@@ -31,7 +31,7 @@ BiLSTM differs from traditional LSTM model by processing the input sequence in b
 
 I also introduced regularization by applying a dropout layer to prevent overfitting. Depending on the sentiment classification (binary vs. multiclass), I used a fully connected dense output layer with sigmoid or softmax activation.
 
-####Transformer Architectures: BERT and RoBERTa
+#### Transformer Architectures: BERT and RoBERTa
 
 For the final approach for my sentiment analysis task, I utilized transformer architectures. BERT is one of the most popular transformer architectures used in sentiment analysis. Its ability to capture bidirectional context makes it well suited for comprehending complex language patterns. For this paper, I utilized BERT-base architecture. BERT-base architecture consists of 12 transformer layers with 768 hidden units in each layer, and each layer has 12 self-attention heads. The architecture contains approximately 110 million parameters, which balance performance and computational efficiency.
 
