@@ -35,6 +35,11 @@ Three datasets were used for evaluation:
 2. **Stock-Market Sentiment Dataset**: Stock-related news from Twitter.
 3. **Sentiment-Labeled Financial News Dataset**: Expert-annotated financial news snippets.
 
+-  Kaggle Datasets:  
+   - [Financial Sentiment Analysis Dataset - Dataset 1](https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis)  
+   - [Stock-Market Sentiment Dataset - Dataset 2](https://www.kaggle.com/datasets/yash612/stockmarket-sentiment-dataset)  
+   - [Sentiment Analysis - Labeled Financial News Data - Dataset 3](https://www.kaggle.com/datasets/aravsood7/sentiment-analysis-labelled-financial-news-data)
+
 ## Key Findings
 
 - Handling class imbalance significantly improved model performance on minority classes.
