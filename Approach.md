@@ -41,4 +41,6 @@ For the final approach for my sentiment analysis task, I utilized transformer ar
 
 I also compared the performance of BERT- base with another transformer-based architecture, RoBERTa. RoBERTa is an optimized variant of BERT. RoBERTa introduces dynamic masking to improve the training process of BERT. In dynamic masking, different masked tokens are created for the same input sequence during each epoch of training. This allows model to generalize better by learning various contexts for each word.
 
+![BERT vs. RoBERTa](https://github.com/KadirOrcunAltunel/SentimentAnalysis/blob/main/images/BERT%20vs%20RoBERTa.png)
+
 In BERT, a model is introduced to pairs of sentences, and it is tasked with determining whether the second sentence logically follows the first in the original context. This is referred to as **Next Sentence Prediction (NSP)**. RoBERTa does not use NSP for the pretraining process. Instead, it relies on larger datasets and longer training sequences which improves overall performance of the model.
