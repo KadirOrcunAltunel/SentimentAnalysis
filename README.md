@@ -67,7 +67,7 @@ For more details, see:
 
 ## References
 
-The full list of references can be found in the accompanying paper.
+The full list of references can be found in the accompanying paper. Please refer to [References](References.md)
 
 ## Code and Experiments
 
