@@ -1,6 +1,6 @@
 # Class Imbalance in Sentiment Analysis
 
-This repository contains the implementation and findings of **"Sentiment Analysis in the Finance Domain"**, a project conducted by **Kadir Altunel** at the New Jersey Institute of Technology. The project explores various machine learning and deep learning models for sentiment analysis with a focus on addressing class imbalance challenges.
+This repository contains the implementation and findings of **"Class Imbalance in Sentiment Analysis"**, a project conducted by **Kadir Altunel** at the New Jersey Institute of Technology. The project explores various machine learning and deep learning models for sentiment analysis with a focus on addressing class imbalance challenges.
 
 ## Overview
 
