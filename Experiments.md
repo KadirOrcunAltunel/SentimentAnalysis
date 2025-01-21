@@ -3,6 +3,7 @@ To address class imbalance in the datasets, I introduced *class weights* for log
 
 The ***class_weight=balanced*** parameter in logistic regression assigns a weight to each class based on its frequency.
 
+
 $$
 \text{class weight for class } i = \frac{\text{total number of samples}}{\text{(number of classes} \times \text{number of samples in class } i)}
 $$
