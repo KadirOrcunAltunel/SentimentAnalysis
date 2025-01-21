@@ -2,13 +2,19 @@
 
 This repository contains the implementation and findings of **"Class Imbalance in Sentiment Analysis"**, a project conducted by **Kadir Altunel** at the New Jersey Institute of Technology. The project explores various machine learning and deep learning models for sentiment analysis with a focus on addressing class imbalance challenges.
 
-## Overview (Abstract.md)
+## [Overview]
 
-Sentiment analysis is an important natural language processing (NLP) task aimed at determining the emotional tone in text data. This project evaluates the performance of traditional and modern machine learning models on three financial datasets, focusing on the prevalent issue of class imbalance.
+Sentiment analysis is an important natural language processing (NLP) task aimed at determining the emotional tone in text data. This project evaluates the performance of traditional and modern machine learning models on three financial datasets, focusing on the prevalent issue of class imbalance. In the project:
+
+- [Abstract](Abstract.md): A summary of the project and its key findings.
+- [Introduction](Introduction.md): Background and context of the project, including its goals and significance.
+
+
 
 ## Approaches and Models
 
-The project employs the following methods:
+The project employs the following methods. For a detailed breakdown, see [Approach](Approach.md). Below is a summary:
+
 
 1. **Logistic Regression and XGBoost**  
    - Feature extraction using TF-IDF.
