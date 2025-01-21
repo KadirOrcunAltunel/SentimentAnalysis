@@ -37,6 +37,8 @@ I also introduced regularization by applying a dropout layer to prevent overfitt
 
 For the final approach for my sentiment analysis task, I utilized transformer architectures. BERT is one of the most popular transformer architectures used in sentiment analysis. Its ability to capture bidirectional context makes it well suited for comprehending complex language patterns. For this paper, I utilized BERT-base architecture. BERT-base architecture consists of 12 transformer layers with 768 hidden units in each layer, and each layer has 12 self-attention heads. The architecture contains approximately 110 million parameters, which balance performance and computational efficiency.
 
+![BERT](https://github.com/KadirOrcunAltunel/SentimentAnalysis/blob/main/images/BERT.png)
+
 I also compared the performance of BERT- base with another transformer-based architecture, RoBERTa. RoBERTa is an optimized variant of BERT. RoBERTa introduces dynamic masking to improve the training process of BERT. In dynamic masking, different masked tokens are created for the same input sequence during each epoch of training. This allows model to generalize better by learning various contexts for each word.
 
 In BERT, a model is introduced to pairs of sentences, and it is tasked with determining whether the second sentence logically follows the first in the original context. This is referred to as **Next Sentence Prediction (NSP)**. RoBERTa does not use NSP for the pretraining process. Instead, it relies on larger datasets and longer training sequences which improves overall performance of the model.
