@@ -30,4 +30,5 @@ $$
 
 Where:
 $$p_t$$: the predicted probability for true class
+
 $$\alpha$$: thescaling factor that helps balance the importance of positive vs. negative classes
