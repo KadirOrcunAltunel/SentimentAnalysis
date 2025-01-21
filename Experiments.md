@@ -39,9 +39,9 @@ Here are the performances of all 3 datasets on various models:
 
 | Model                                | Accuracy | F1-Score                                          |
 |--------------------------------------|----------|---------------------------------------------------|
-| Logistic Regression (base)           | 0.72     | Negative: 0.21, Neutral: 0.80, Positive: 0.72     |
+| Logistic Regression                  | 0.72     | Negative: 0.21, Neutral: 0.80, Positive: 0.72     |
 | Logistic Regression (*class weights*)| 0.72     | Negative: 0.53, Neutral: 0.78, Positive: 0.73     |
-| XGBoost (base)                       | 0.68     | Negative: 0.19, Neutral: 0.76, Positive: 0.70     |
+| XGBoost                              | 0.68     | Negative: 0.19, Neutral: 0.76, Positive: 0.70     |
 | XGBoost (*sample weights*)           | 0.68     | Negative: 0.42, Neutral: 0.75, Positive: 0.69     |
 | BiLSTM                               | 0.75     | Negative: 0.41, Neutral: 0.82, Positive: 0.77     |
 | BiLSTM (*focal loss*)                | 0.71     | Negative: 0.57, Neutral: 0.75, Positive: 0.75     |
@@ -49,4 +49,20 @@ Here are the performances of all 3 datasets on various models:
 | BERT (*focal loss*)                  | 0.79     | Negative: 0.44, Neutral: 0.83, Positive: 0.86     |
 | RoBERTa                              | 0.82     | Negative: 0.50, Neutral: 0.86, Positive: 0.88     |
 | RoBERTa (*focal loss*)               | 0.81     | Negative: **0.63**, Neutral: 0.83, Positive: 0.88 |
+
+### Dataset 2 – Accuracy & F1-Score Performance
+
+| Model                                 | Accuracy | F1-Score                              |
+|-------------------------------------  |----------|---------------------------------------|
+| Logistic Regression                   | 0.77     | Negative: 0.63, Positive: 0.84        |
+| Logistic Regression (*class weights*) | 0.79     | Negative: 0.73, Positive: 0.83        |
+| XGBoost                               | 0.76     | Negative: 0.60, Positive: 0.83        |
+| XGBoost (*sample weights*)            | 0.76     | Negative: 0.67, Positive: 0.81        |
+| BiLSTM                                | 0.75     | Negative: 0.63, Positive: 0.82        |
+| BiLSTM (*focal loss*)                 | 0.73     | Negative: 0.66, Positive: 0.77        |
+| BERT                                  | 0.78     | Negative: 0.72, Positive: 0.82        |
+| BERT (*focal loss*)                   | 0.81     | Negative: 0.72, Positive: 0.86        |
+| RoBERTa                               | 0.84     | Negative: 0.77, Positive: 0.87        |
+| RoBERTa (*focal loss*)                | 0.84     | Negative: **0.77**, Positive: 0.87    |
+
 
