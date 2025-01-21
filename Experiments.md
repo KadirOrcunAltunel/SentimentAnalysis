@@ -80,3 +80,8 @@ Here are the performances of all 3 datasets on various models:
 | RoBERTa              | 0.88     | Negative: 0.87, Positive: 0.88        |
 
 
+Based on the charts above, the base RoBERTa model reached the highest accuracy and class-level F1-scores across all models, even in the presence of class imbalance. However, in sentiment analysis, identifying all instances of a target sentiment is critical, making F1-score a more important metric than accuracy in many cases. On the first dataset, which retained significant classimbalance, all models showed improvements when class imbalance techniques were applied. Remarkably, RoBERTa with *focal loss* emerged as the strongest performer for minority class F1-scores, despite a slight decline in accuracy.
+
+On the other hand, for dataset 2 where class imbalance was less notable, RoBERTa outperformed the other models and emerged as the best overall performer. Interestingly, logistic regression with *class weights* also performed very well, coming very close to RoBERTa, underscoring the importance of handling class imbalance effectively. On dataset 3, where classes are balanced RoBERTa was once again the winner. These findings highlight the importance of aligning model evaluation metrics with the specific goals of a sentiment analysis task and adapting strategies to handle varying levels of class imbalance.
+
+
