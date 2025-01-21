@@ -27,3 +27,5 @@ And for multiclass classification, the formula is:
 $$
 \text{Focal Loss} = -\alpha_t \cdot (1 - p_t)^\gamma \cdot \log(p_t)
 $$
+
+Where:
