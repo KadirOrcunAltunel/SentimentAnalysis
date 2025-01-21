@@ -9,8 +9,11 @@ One of the biggest innovations that has revolutionized sentiment analysis is the
 RoBERta, which is an optimized version of BERT provides even better performance in sentiment analysis by training on larger datasets and longer sequences. Tarunesh et al. (2021) demonstrated RoBERTa’s ability to outperform BERT in dealing with complex language. This is particularly thanks to the elimination of Next Sentence Prediction (NSP) task used in BERT, leading to a faster fine tuning.
 
 However, current methods for performing sentiment analysis face several key challenges:
+
 • **Traditional methods are limited**: Relying on manual feature engineering techniques like TF-IDF can be time consuming and it can fail to capture the subtle meaning and context important for understanding sentiment.
+
 • **Sequential models lack integration**: Models like LSTM, while effective, are often treated separately from pre-processing steps. This leads to poor workflows and potential loss of valuable information.
+
 • **Advanced models overlook imbalance**: Powerful transformer- based models like BERT and RoBERTa frequently struggle with the uneven distribution of sentiment classes. For instance, Bashiri et al. (2024) discusses the limitations of transformers in dealing with class imbalance and highlights the need for specialized techniques.
 
 In this project, I proposed a framework to address these limitations by using a combination of traditional and modern approaches. My methodology integrated class-weighted logistic regression and XGBoost with TF-IDF for feature extraction, BiLSTM with GloVe embeddings for capturing sequential dependencies, and transformer architectures like BERT and RoBERTa for their bidirectional contextual understanding. Additionally, I introduced focal loss and other imbalance-handling strategies to improve F1-score on minority classes, which is crucial in scenarios where underrepresented sentiments can hold significant importance.
