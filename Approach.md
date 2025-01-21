@@ -14,7 +14,7 @@ w_{x, y} = tf_{x, y} \times \log \left( \frac{N}{df_x} \right)
 $$
 
 Where:
-- $w_{x, y}$: TF-IDF weight for term $$ x $$ in document $$ y $$.
-- $$ tf_{x, y} $$: Frequency of term $$ x $$ in document $$ y $$.
-- $$ df_x $$: Number of documents containing term $$ x $$.
-- $$ N $$: Total number of documents.
+- $w_{x, y}$: TF-IDF weight for term $x$ in document $y$.
+- $tf_{x, y}$: Frequency of term $x$ in document $y$.
+- $df_x$: Number of documents containing term $x$.
+- $N$: Total number of documents.
