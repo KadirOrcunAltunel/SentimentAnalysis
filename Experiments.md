@@ -50,6 +50,8 @@ Here are the performances of all 3 datasets on various models:
 | RoBERTa                              | 0.82     | Negative: 0.50, Neutral: 0.86, Positive: 0.88     |
 | RoBERTa (*focal loss*)               | 0.81     | Negative: **0.63**, Neutral: 0.83, Positive: 0.88 |
 
+
+
 ### Dataset 2 – Accuracy & F1-Score Performance
 
 | Model                                 | Accuracy | F1-Score                              |
@@ -64,5 +66,17 @@ Here are the performances of all 3 datasets on various models:
 | BERT (*focal loss*)                   | 0.81     | Negative: 0.72, Positive: 0.86        |
 | RoBERTa                               | 0.84     | Negative: 0.77, Positive: 0.87        |
 | RoBERTa (*focal loss*)                | 0.84     | Negative: **0.77**, Positive: 0.87    |
+
+
+
+### Dataset 3 – Accuracy & F1-Score Performance
+
+| Model                | Accuracy | F1-Score                              |
+|----------------------|----------|---------------------------------------|
+| Logistic Regression  | 0.65     | Negative: 0.60, Positive: 0.69        |
+| XGBoost              | 0.65     | Negative: 0.60, Positive: 0.69        |
+| BiLSTM               | 0.46     | Negative: 0.47, Positive: 0.47        |
+| BERT                 | 0.65     | Negative: 0.62, Positive: 0.67        |
+| RoBERTa              | 0.88     | Negative: 0.87, Positive: 0.88        |
 
 
